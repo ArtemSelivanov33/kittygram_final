@@ -9,19 +9,12 @@ Kittygram — социальная сеть для обмена фотограф
 
 Для работы с данным проектом вам понадобятся следующие знания и навыки:
 
-- [Python 3.9.10](<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://www.python.org/downloads/</a>
-- [Django](<a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">https://www.djangoproject.com/</a>
-- [Django REST Framework](<a href="https://www.django-rest-framework.org" target="_blank" rel="noopener noreferrer">https://www.django-rest-framework.org</a>
-- [Nginx](<a href="https://nginx.org/ru/" target="_blank" rel="noopener noreferrer">https://nginx.org/ru/</a>
-- [Gunicorn](<a href="https://gunicorn.org/" target="_blank" rel="noopener noreferrer">https://gunicorn.org/</a>
-- [CI/CD](<a href="https://resources.github.com/ci-cd/" target="_blank" rel="noopener noreferrer">https://resources.github.com/ci-cd/</a>
-
-[![Python](<a href="https://img.shields.io/badge/-Python_3.9.10-464646?style=flat-square&logo=Python)](https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-Python_3.9.10-464646?style=flat-square&logo=Python)](https://www.python.org/downloads/</a>
-[![Django](<a href="https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/</a>
-[![Django REST Framework](<a href="https://img.shields.io/badge/-Django_rest_framework_3.12.4-464646?style=flat-square&logo=Django)](https://www.django-rest-framework.org" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-Django_rest_framework_3.12.4-464646?style=flat-square&logo=Django)](https://www.django-rest-framework.org</a>
-[![Nginx](<a href="https://img.shields.io/badge/-Nginx-464646?style=flat-square&logo=Nginx)](https://nginx.org/ru/" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-Nginx-464646?style=flat-square&logo=Nginx)](https://nginx.org/ru/</a>
-[![Gunicorn](<a href="https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/</a>
-[![CI/CD](<a href="https://img.shields.io/badge/-CI/CD-464646?style=flat-square&logo=CI/CD)](https://resources.github.com/ci-cd/" target="_blank" rel="noopener noreferrer">https://img.shields.io/badge/-CI/CD-464646?style=flat-square&logo=CI/CD)](https://resources.github.com/ci-cd/</a>
+[![Python](https://img.shields.io/badge/-Python_3.9.10-464646??style=flat-square&logo=Python)](https://www.python.org/downloads/)
+[![Django](https://img.shields.io/badge/-Django-464646??style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/-Django_rest_framework_3.12.4-464646??style=flat-square&logo=Django)](https://www.django-rest-framework.org)
+[![Nginx](https://img.shields.io/badge/-Nginx-464646??style=flat-square&logo=Nginx)](https://nginx.org/ru/)
+[![Gunicorn](https://img.shields.io/badge/-gunicorn-464646??style=flat-square&logo=gunicorn)](https://gunicorn.org/)
+[![CI/CD](https://img.shields.io/badge/-CI/CD-464646??style=flat-square&logo=CI/CD)](https://resources.github.com/ci-cd/)
 
 
 ### Установка 
