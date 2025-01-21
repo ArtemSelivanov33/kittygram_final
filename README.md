@@ -149,6 +149,8 @@ Kittygram — социальная сеть для обмена фотограф
     USER                           # имя пользователя
     SSH_KEY                        # приватный ssh-ключ
     SSH_PASSPHRASE                 # кодовая фраза (пароль) для ssh-ключа
+    SECRET_KEY                     # секретный ключ вашего проекта
+    ALLOWED_HOSTS                  # список хостов вашего проекта
 
     TELEGRAM_TO                    # id телеграм-аккаунта (можно узнать у @userinfobot, команда /start)
     TELEGRAM_TOKEN                 # токен бота (получить токен можно у @BotFather, /token, имя бота)
