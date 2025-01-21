@@ -12,7 +12,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'SECRET_KEY')
 
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'insprint.ddns.net']
+ALLOWED_HOSTS = [host.strip() for host in os.getenv(
+    'ALLOWED_HOSTS', 'localhost').split(',')]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -58,15 +59,15 @@ TEMPLATES = [
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
 
-DATABASES = { 
-    'default': { 
-        'ENGINE': 'django.db.backends.postgresql' if os.getenv('DB_TYPE', 'sqlite') == 'postgres' else 'django.db.backends.sqlite3', 
-        'NAME': os.getenv('POSTGRES_DB', 'django') if os.getenv('DB_TYPE') == 'postgres' else 'db.sqlite3', 
-        'USER': os.getenv('POSTGRES_USER', 'django') if os.getenv('DB_TYPE') == 'postgres' else '', 
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', '') if os.getenv('DB_TYPE') == 'postgres' else '', 
-        'HOST': os.getenv('DB_HOST', '') if os.getenv('DB_TYPE') == 'postgres' else '', 
-        'PORT': os.getenv('DB_PORT', 5432) if os.getenv('DB_TYPE') == 'postgres' else '', 
-    } 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql' if os.getenv('DB_TYPE', 'sqlite') == 'postgres' else 'django.db.backends.sqlite3',
+        'NAME': os.getenv('POSTGRES_DB', 'django') if os.getenv('DB_TYPE') == 'postgres' else 'db.sqlite3',
+        'USER': os.getenv('POSTGRES_USER', 'django') if os.getenv('DB_TYPE') == 'postgres' else '',
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD', '') if os.getenv('DB_TYPE') == 'postgres' else '',
+        'HOST': os.getenv('DB_HOST', '') if os.getenv('DB_TYPE') == 'postgres' else '',
+        'PORT': os.getenv('DB_PORT', 5432) if os.getenv('DB_TYPE') == 'postgres' else '',
+    }
 }
 
 
@@ -109,7 +110,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ],
 
     'DEFAULT_AUTHENTICATION_CLASSES': [
